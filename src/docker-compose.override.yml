@@ -36,7 +36,6 @@ services:
     volumes:
       - pgadmin_data:/root/.pgadmin
 
-
   portainer:
     container_name: portainer
     restart: always
